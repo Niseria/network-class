@@ -126,6 +126,14 @@ line vty 0 4<br/>
 password cisco (비밀번호 설정)<br/>
 login<br/>
 privilege level 15 (바로 관리자로 접속)<br/>
+<br/>
+-------------------------------------<br/>
+username ccnp privilege 15 password 0 cisco<br/>
+<br/>
+line vty 0 4<br/>
+ login local<br/>
+ transport input all<br/>
+<br/>
 
 ## ubuntu 
 
