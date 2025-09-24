@@ -55,6 +55,8 @@ INSIDE 범위를 지정한다.<br/>
 R2(config)#access-list 1 permit any<br/>
 
 
+#### NAT 스위치에서 - ip route 0.0.0.0 0.0.0.0 20.1.1.254 (경로지정 해줘야 함)
+
 ## 스위치에서 ip를 입력하는 방법
 
 ### int vlan 1에서 ip 할당 (가상 인터페이스 SVI)
